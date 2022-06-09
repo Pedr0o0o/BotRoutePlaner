@@ -1,13 +1,14 @@
-#Botrouteplaner project
+# Botrouteplaner project
 Created by Piotr Wiekiera
 The project contains 10 files that can be divided into three groups:
-First of all - the control class:
+
+- First of all - the control class:
       Main.java, Controler.java, IputData.java
       these files prepare and control how the project works and what needs to be done in the right order,
-Second - container classes
+- Second - container classes
       BotMovment.java, Grid.java, Container.java, Coordinate.java
       in these files you can find an implementation of a computing domain.
-Third - classes of graphs:
+- Third - classes of graphs:
       Edge.java, Graph.java - classes responsible for creating a graph based on the computing domain
       DijkstraShorthestPath.java - contains the dijkstra algorithm for finding the shortest path in a graph
 
